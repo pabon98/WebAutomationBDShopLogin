@@ -26,5 +26,12 @@ public String getCurrentPageUrl(){
 public void WriteOneElement(By Locator, String text){
     getElement(Locator).sendKeys(text);
 }
+public Boolean Is_Element_Visible(By Locator){
+    try{
+        return getElement(Locator).isDisplayed();
+    } catch (Exception e) {
+        return false;
+    }
+}
 
 }
