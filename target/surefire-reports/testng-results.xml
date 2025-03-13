@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="8" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-13T10:47:59 GMT+06:00" name="All Test Suite" finished-at="2025-03-13T10:48:06 GMT+06:00" duration-ms="7792">
+    <groups>
+    </groups>
+    <test started-at="2025-03-13T10:47:59 GMT+06:00" name="F:/QA Project/Web Automation/BDShopWebAutomation/src/test/java/testcases" finished-at="2025-03-13T10:48:06 GMT+06:00" duration-ms="7792">
+      <class name="testcases.TestHomePage">
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestHomePage@5340477f]" started-at="2025-03-13T10:47:34 GMT+06:00" name="openABrowser" finished-at="2025-03-13T10:47:52 GMT+06:00" duration-ms="17836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openABrowser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TestHomePage@5340477f]" started-at="2025-03-13T10:48:14 GMT+06:00" name="closeBrowser" finished-at="2025-03-13T10:48:15 GMT+06:00" depends-on-methods="testcases.TestLoginPage.logoutUser" duration-ms="713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.TestHomePage -->
+      <class name="testcases.TestLoginPage">
+        <test-method is-config="true" signature="setup_class()[pri:0, instance:testcases.TestLoginPage@2f953efd]" started-at="2025-03-13T10:47:52 GMT+06:00" name="setup_class" finished-at="2025-03-13T10:47:59 GMT+06:00" depends-on-methods="utilities.DriverSetup.openABrowser" duration-ms="6924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_class -->
+        <test-method signature="LoginWithInvalidEmailAndValidPassword()[pri:0, instance:testcases.TestLoginPage@2f953efd]" started-at="2025-03-13T10:47:59 GMT+06:00" name="LoginWithInvalidEmailAndValidPassword" description="Test with Invalid email" finished-at="2025-03-13T10:48:01 GMT+06:00" duration-ms="2125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvalidEmailAndValidPassword -->
+        <test-method signature="LoginWithValidEmailAndInValidPassword()[pri:2, instance:testcases.TestLoginPage@2f953efd]" started-at="2025-03-13T10:48:01 GMT+06:00" name="LoginWithValidEmailAndInValidPassword" description="Test with valid email and invalid password" finished-at="2025-03-13T10:48:03 GMT+06:00" duration-ms="1938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidEmailAndInValidPassword -->
+        <test-method signature="LoginWithInvalidEmailAndPassword()[pri:3, instance:testcases.TestLoginPage@2f953efd]" started-at="2025-03-13T10:48:03 GMT+06:00" name="LoginWithInvalidEmailAndPassword" description="Test with invalid email and password" finished-at="2025-03-13T10:48:05 GMT+06:00" duration-ms="1593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvalidEmailAndPassword -->
+        <test-method signature="LoginWithEmptyMailAndPassword()[pri:4, instance:testcases.TestLoginPage@2f953efd]" started-at="2025-03-13T10:48:05 GMT+06:00" name="LoginWithEmptyMailAndPassword" description="Test with empty mail and password" finished-at="2025-03-13T10:48:05 GMT+06:00" duration-ms="851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithEmptyMailAndPassword -->
+        <test-method signature="LoginWithValidCredentials()[pri:5, instance:testcases.TestLoginPage@2f953efd]" started-at="2025-03-13T10:48:05 GMT+06:00" name="LoginWithValidCredentials" description="Test With Valid credentials" finished-at="2025-03-13T10:48:06 GMT+06:00" duration-ms="1043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCredentials -->
+        <test-method is-config="true" signature="logoutUser()[pri:0, instance:testcases.TestLoginPage@2f953efd]" started-at="2025-03-13T10:48:07 GMT+06:00" name="logoutUser" finished-at="2025-03-13T10:48:14 GMT+06:00" duration-ms="7508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+      </class> <!-- testcases.TestLoginPage -->
+    </test> <!-- F:/QA Project/Web Automation/BDShopWebAutomation/src/test/java/testcases -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
