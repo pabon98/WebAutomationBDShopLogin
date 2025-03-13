@@ -21,6 +21,13 @@
 
                 </methods>
             </class>
+            <class name="testcases.testAccountPage">
+                <methods>
+                    <include name="LoginWithValidCredentials"/>
+                    <include name="testAccountPageUrl"/>
+                    <include name="testAccountPageTitle"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>

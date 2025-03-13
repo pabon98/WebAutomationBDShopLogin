@@ -3,11 +3,6 @@
 <suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="F:/QA Project/Web Automation/BDShopWebAutomation/src/test/java/testcases(failed)" verbose="0">
     <classes>
-      <class name="testcases.TestHomePage">
-        <methods>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- testcases.TestHomePage -->
       <class name="testcases.TestLoginPage">
         <methods>
           <include name="openABrowser"/>

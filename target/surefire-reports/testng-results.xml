@@ -2,56 +2,54 @@
 <testng-results ignored="0" total="8" passed="2" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-13T14:07:33 GMT+06:00" name="All Test Suite" finished-at="2025-03-13T14:08:10 GMT+06:00" duration-ms="37472">
+  <suite started-at="2025-03-13T14:55:32 GMT+06:00" name="All Test Suite" finished-at="2025-03-13T14:55:53 GMT+06:00" duration-ms="21435">
     <groups>
     </groups>
-    <test started-at="2025-03-13T14:07:33 GMT+06:00" name="F:/QA Project/Web Automation/BDShopWebAutomation/src/test/java/testcases" finished-at="2025-03-13T14:08:10 GMT+06:00" duration-ms="37472">
+    <test started-at="2025-03-13T14:55:32 GMT+06:00" name="F:/QA Project/Web Automation/BDShopWebAutomation/src/test/java/testcases" finished-at="2025-03-13T14:55:53 GMT+06:00" duration-ms="21435">
       <class name="testcases.TestHomePage">
-        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestHomePage@5340477f]" started-at="2025-03-13T14:07:18 GMT+06:00" name="openABrowser" finished-at="2025-03-13T14:07:22 GMT+06:00" duration-ms="4097" status="PASS">
+        <test-method is-config="true" signature="openABrowser()[pri:0, instance:testcases.TestHomePage@7139992f]" started-at="2025-03-13T14:55:22 GMT+06:00" name="openABrowser" finished-at="2025-03-13T14:55:32 GMT+06:00" duration-ms="9456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openABrowser -->
-        <test-method signature="TestHomePageTitle()[pri:0, instance:testcases.TestHomePage@5340477f]" started-at="2025-03-13T14:07:33 GMT+06:00" name="TestHomePageTitle" finished-at="2025-03-13T14:07:36 GMT+06:00" duration-ms="3019" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestHomePageTitle -->
-        <test-method signature="TestHomePageUrl()[pri:0, instance:testcases.TestHomePage@5340477f]" started-at="2025-03-13T14:07:36 GMT+06:00" name="TestHomePageUrl" finished-at="2025-03-13T14:07:39 GMT+06:00" duration-ms="2708" status="PASS">
+        <test-method signature="TestHomePageUrl()[pri:0, instance:testcases.TestHomePage@7139992f]" started-at="2025-03-13T14:55:32 GMT+06:00" name="TestHomePageUrl" finished-at="2025-03-13T14:55:38 GMT+06:00" duration-ms="6545" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestHomePageUrl -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TestHomePage@5340477f]" started-at="2025-03-13T14:08:16 GMT+06:00" name="closeBrowser" finished-at="2025-03-13T14:08:16 GMT+06:00" depends-on-methods="testcases.TestLoginPage.logoutUser" duration-ms="0" status="SKIP">
+        <test-method signature="TestHomePageTitle()[pri:1, instance:testcases.TestHomePage@7139992f]" started-at="2025-03-13T14:55:39 GMT+06:00" name="TestHomePageTitle" finished-at="2025-03-13T14:55:40 GMT+06:00" duration-ms="925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestHomePageTitle -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TestHomePage@7139992f]" started-at="2025-03-13T14:55:54 GMT+06:00" name="closeBrowser" finished-at="2025-03-13T14:55:55 GMT+06:00" duration-ms="1771" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testcases.TestHomePage -->
       <class name="testcases.TestLoginPage">
-        <test-method is-config="true" signature="setup_class()[pri:0, instance:testcases.TestLoginPage@2f953efd]" started-at="2025-03-13T14:07:22 GMT+06:00" name="setup_class" finished-at="2025-03-13T14:07:33 GMT+06:00" depends-on-methods="utilities.DriverSetup.openABrowser" duration-ms="10597" status="PASS">
+        <test-method is-config="true" signature="setup_class()[pri:0, instance:testcases.TestLoginPage@57db2b13]" started-at="2025-03-13T14:55:40 GMT+06:00" name="setup_class" finished-at="2025-03-13T14:55:42 GMT+06:00" duration-ms="2450" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup_class -->
-        <test-method signature="LoginWithInvalidEmailAndValidPassword()[pri:0, instance:testcases.TestLoginPage@2f953efd]" started-at="2025-03-13T14:07:39 GMT+06:00" name="LoginWithInvalidEmailAndValidPassword" description="Test with Invalid email" finished-at="2025-03-13T14:07:44 GMT+06:00" duration-ms="5309" status="FAIL">
+        <test-method signature="LoginWithInvalidEmailAndValidPassword()[pri:0, instance:testcases.TestLoginPage@57db2b13]" started-at="2025-03-13T14:55:42 GMT+06:00" name="LoginWithInvalidEmailAndValidPassword" description="Test with Invalid email" finished-at="2025-03-13T14:55:42 GMT+06:00" duration-ms="131" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=134.0.6998.89)
+              <![CDATA[Element <input id="email-login" class="input-text" name="username" type="email"> is not reachable by keyboard
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f565e9b8808bdf4d3585f255c58571be, sendKeysToElement {id=f.D665AF56EAFB3F1ABDE9EC1B12890D2E.d.F8893B5267B4315CD12350CE11304D26.e.232, value=[Ljava.lang.CharSequence;@41c89d2f}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f565e9b8808bdf4d3585f255c58571be)] -> xpath: //input[@id='email-login']]
-Session ID: f565e9b8808bdf4d3585f255c58571be]]>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f722c01e-c0ad-4db0-b28b-822849757df6, sendKeysToElement {id=9255b109-98ca-4fbf-9d8b-fbca7ba6b393, value=[Ljava.lang.CharSequence;@59221b97}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12484, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (f722c01e-c0ad-4db0-b28b-822849757df6)] -> xpath: //input[@id='email-login']]
+Session ID: f722c01e-c0ad-4db0-b28b-822849757df6]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=134.0.6998.89)
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <input id="email-login" class="input-text" name="username" type="email"> is not reachable by keyboard
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f565e9b8808bdf4d3585f255c58571be, sendKeysToElement {id=f.D665AF56EAFB3F1ABDE9EC1B12890D2E.d.F8893B5267B4315CD12350CE11304D26.e.232, value=[Ljava.lang.CharSequence;@41c89d2f}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f565e9b8808bdf4d3585f255c58571be)] -> xpath: //input[@id='email-login']]
-Session ID: f565e9b8808bdf4d3585f255c58571be
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f722c01e-c0ad-4db0-b28b-822849757df6, sendKeysToElement {id=9255b109-98ca-4fbf-9d8b-fbca7ba6b393, value=[Ljava.lang.CharSequence;@59221b97}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12484, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (f722c01e-c0ad-4db0-b28b-822849757df6)] -> xpath: //input[@id='email-login']]
+Session ID: f722c01e-c0ad-4db0-b28b-822849757df6
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -65,7 +63,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
 at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
 at pages.BasePage.WriteOneElement(BasePage.java:27)
-at testcases.TestLoginPage.LoginWithInvalidEmailAndValidPassword(TestLoginPage.java:54)
+at testcases.TestLoginPage.LoginWithInvalidEmailAndValidPassword(TestLoginPage.java:50)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -102,29 +100,27 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithInvalidEmailAndValidPassword -->
-        <test-method signature="LoginWithInvalidCredentials()[pri:1, instance:testcases.TestLoginPage@2f953efd]" started-at="2025-03-13T14:07:44 GMT+06:00" name="LoginWithInvalidCredentials" description="Test with invalid credentials" finished-at="2025-03-13T14:07:50 GMT+06:00" duration-ms="5199" status="FAIL">
+        <test-method signature="LoginWithInvalidCredentials()[pri:1, instance:testcases.TestLoginPage@57db2b13]" started-at="2025-03-13T14:55:42 GMT+06:00" name="LoginWithInvalidCredentials" description="Test with invalid credentials" finished-at="2025-03-13T14:55:42 GMT+06:00" duration-ms="91" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=134.0.6998.89)
+              <![CDATA[Element <input id="email-login" class="input-text" name="username" type="email"> is not reachable by keyboard
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f565e9b8808bdf4d3585f255c58571be, sendKeysToElement {id=f.D665AF56EAFB3F1ABDE9EC1B12890D2E.d.F8893B5267B4315CD12350CE11304D26.e.232, value=[Ljava.lang.CharSequence;@4287d447}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f565e9b8808bdf4d3585f255c58571be)] -> xpath: //input[@id='email-login']]
-Session ID: f565e9b8808bdf4d3585f255c58571be]]>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f722c01e-c0ad-4db0-b28b-822849757df6, sendKeysToElement {id=9255b109-98ca-4fbf-9d8b-fbca7ba6b393, value=[Ljava.lang.CharSequence;@1e8823d2}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12484, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (f722c01e-c0ad-4db0-b28b-822849757df6)] -> xpath: //input[@id='email-login']]
+Session ID: f722c01e-c0ad-4db0-b28b-822849757df6]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=134.0.6998.89)
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <input id="email-login" class="input-text" name="username" type="email"> is not reachable by keyboard
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f565e9b8808bdf4d3585f255c58571be, sendKeysToElement {id=f.D665AF56EAFB3F1ABDE9EC1B12890D2E.d.F8893B5267B4315CD12350CE11304D26.e.232, value=[Ljava.lang.CharSequence;@4287d447}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f565e9b8808bdf4d3585f255c58571be)] -> xpath: //input[@id='email-login']]
-Session ID: f565e9b8808bdf4d3585f255c58571be
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f722c01e-c0ad-4db0-b28b-822849757df6, sendKeysToElement {id=9255b109-98ca-4fbf-9d8b-fbca7ba6b393, value=[Ljava.lang.CharSequence;@1e8823d2}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12484, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (f722c01e-c0ad-4db0-b28b-822849757df6)] -> xpath: //input[@id='email-login']]
+Session ID: f722c01e-c0ad-4db0-b28b-822849757df6
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -138,7 +134,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
 at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
 at pages.BasePage.WriteOneElement(BasePage.java:27)
-at testcases.TestLoginPage.LoginWithInvalidCredentials(TestLoginPage.java:65)
+at testcases.TestLoginPage.LoginWithInvalidCredentials(TestLoginPage.java:61)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -175,29 +171,27 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithInvalidCredentials -->
-        <test-method signature="LoginWithValidEmailAndInValidPassword()[pri:2, instance:testcases.TestLoginPage@2f953efd]" started-at="2025-03-13T14:07:50 GMT+06:00" name="LoginWithValidEmailAndInValidPassword" description="Test with valid email and invalid password" finished-at="2025-03-13T14:07:55 GMT+06:00" duration-ms="5268" status="FAIL">
+        <test-method signature="LoginWithValidEmailAndInValidPassword()[pri:2, instance:testcases.TestLoginPage@57db2b13]" started-at="2025-03-13T14:55:42 GMT+06:00" name="LoginWithValidEmailAndInValidPassword" description="Test with valid email and invalid password" finished-at="2025-03-13T14:55:43 GMT+06:00" duration-ms="252" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=134.0.6998.89)
+              <![CDATA[Element <input id="email-login" class="input-text" name="username" type="email"> is not reachable by keyboard
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f565e9b8808bdf4d3585f255c58571be, sendKeysToElement {id=f.D665AF56EAFB3F1ABDE9EC1B12890D2E.d.F8893B5267B4315CD12350CE11304D26.e.232, value=[Ljava.lang.CharSequence;@7a356a0d}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f565e9b8808bdf4d3585f255c58571be)] -> xpath: //input[@id='email-login']]
-Session ID: f565e9b8808bdf4d3585f255c58571be]]>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f722c01e-c0ad-4db0-b28b-822849757df6, sendKeysToElement {id=9255b109-98ca-4fbf-9d8b-fbca7ba6b393, value=[Ljava.lang.CharSequence;@30865a90}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12484, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (f722c01e-c0ad-4db0-b28b-822849757df6)] -> xpath: //input[@id='email-login']]
+Session ID: f722c01e-c0ad-4db0-b28b-822849757df6]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=134.0.6998.89)
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <input id="email-login" class="input-text" name="username" type="email"> is not reachable by keyboard
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f565e9b8808bdf4d3585f255c58571be, sendKeysToElement {id=f.D665AF56EAFB3F1ABDE9EC1B12890D2E.d.F8893B5267B4315CD12350CE11304D26.e.232, value=[Ljava.lang.CharSequence;@7a356a0d}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f565e9b8808bdf4d3585f255c58571be)] -> xpath: //input[@id='email-login']]
-Session ID: f565e9b8808bdf4d3585f255c58571be
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f722c01e-c0ad-4db0-b28b-822849757df6, sendKeysToElement {id=9255b109-98ca-4fbf-9d8b-fbca7ba6b393, value=[Ljava.lang.CharSequence;@30865a90}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12484, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (f722c01e-c0ad-4db0-b28b-822849757df6)] -> xpath: //input[@id='email-login']]
+Session ID: f722c01e-c0ad-4db0-b28b-822849757df6
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -211,7 +205,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
 at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
 at pages.BasePage.WriteOneElement(BasePage.java:27)
-at testcases.TestLoginPage.LoginWithValidEmailAndInValidPassword(TestLoginPage.java:76)
+at testcases.TestLoginPage.LoginWithValidEmailAndInValidPassword(TestLoginPage.java:72)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -248,29 +242,27 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithValidEmailAndInValidPassword -->
-        <test-method signature="LoginWithInvalidEmailAndPassword()[pri:3, instance:testcases.TestLoginPage@2f953efd]" started-at="2025-03-13T14:07:55 GMT+06:00" name="LoginWithInvalidEmailAndPassword" description="Test with invalid email and password" finished-at="2025-03-13T14:08:00 GMT+06:00" duration-ms="5210" status="FAIL">
+        <test-method signature="LoginWithInvalidEmailAndPassword()[pri:3, instance:testcases.TestLoginPage@57db2b13]" started-at="2025-03-13T14:55:43 GMT+06:00" name="LoginWithInvalidEmailAndPassword" description="Test with invalid email and password" finished-at="2025-03-13T14:55:43 GMT+06:00" duration-ms="89" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=134.0.6998.89)
+              <![CDATA[Element <input id="email-login" class="input-text" name="username" type="email"> is not reachable by keyboard
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f565e9b8808bdf4d3585f255c58571be, sendKeysToElement {id=f.D665AF56EAFB3F1ABDE9EC1B12890D2E.d.F8893B5267B4315CD12350CE11304D26.e.232, value=[Ljava.lang.CharSequence;@263558c9}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f565e9b8808bdf4d3585f255c58571be)] -> xpath: //input[@id='email-login']]
-Session ID: f565e9b8808bdf4d3585f255c58571be]]>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f722c01e-c0ad-4db0-b28b-822849757df6, sendKeysToElement {id=9255b109-98ca-4fbf-9d8b-fbca7ba6b393, value=[Ljava.lang.CharSequence;@350b3a17}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12484, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (f722c01e-c0ad-4db0-b28b-822849757df6)] -> xpath: //input[@id='email-login']]
+Session ID: f722c01e-c0ad-4db0-b28b-822849757df6]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=134.0.6998.89)
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <input id="email-login" class="input-text" name="username" type="email"> is not reachable by keyboard
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f565e9b8808bdf4d3585f255c58571be, sendKeysToElement {id=f.D665AF56EAFB3F1ABDE9EC1B12890D2E.d.F8893B5267B4315CD12350CE11304D26.e.232, value=[Ljava.lang.CharSequence;@263558c9}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f565e9b8808bdf4d3585f255c58571be)] -> xpath: //input[@id='email-login']]
-Session ID: f565e9b8808bdf4d3585f255c58571be
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f722c01e-c0ad-4db0-b28b-822849757df6, sendKeysToElement {id=9255b109-98ca-4fbf-9d8b-fbca7ba6b393, value=[Ljava.lang.CharSequence;@350b3a17}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12484, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (f722c01e-c0ad-4db0-b28b-822849757df6)] -> xpath: //input[@id='email-login']]
+Session ID: f722c01e-c0ad-4db0-b28b-822849757df6
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -284,7 +276,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
 at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
 at pages.BasePage.WriteOneElement(BasePage.java:27)
-at testcases.TestLoginPage.LoginWithInvalidEmailAndPassword(TestLoginPage.java:90)
+at testcases.TestLoginPage.LoginWithInvalidEmailAndPassword(TestLoginPage.java:86)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -321,29 +313,27 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithInvalidEmailAndPassword -->
-        <test-method signature="LoginWithEmptyMailAndPassword()[pri:4, instance:testcases.TestLoginPage@2f953efd]" started-at="2025-03-13T14:08:00 GMT+06:00" name="LoginWithEmptyMailAndPassword" description="Test with empty mail and password" finished-at="2025-03-13T14:08:05 GMT+06:00" duration-ms="5123" status="FAIL">
+        <test-method signature="LoginWithEmptyMailAndPassword()[pri:4, instance:testcases.TestLoginPage@57db2b13]" started-at="2025-03-13T14:55:43 GMT+06:00" name="LoginWithEmptyMailAndPassword" description="Test with empty mail and password" finished-at="2025-03-13T14:55:43 GMT+06:00" duration-ms="154" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=134.0.6998.89)
+              <![CDATA[Element <input id="email-login" class="input-text" name="username" type="email"> is not reachable by keyboard
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f565e9b8808bdf4d3585f255c58571be, sendKeysToElement {id=f.D665AF56EAFB3F1ABDE9EC1B12890D2E.d.F8893B5267B4315CD12350CE11304D26.e.232, value=[Ljava.lang.CharSequence;@d59970a}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f565e9b8808bdf4d3585f255c58571be)] -> xpath: //input[@id='email-login']]
-Session ID: f565e9b8808bdf4d3585f255c58571be]]>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f722c01e-c0ad-4db0-b28b-822849757df6, sendKeysToElement {id=9255b109-98ca-4fbf-9d8b-fbca7ba6b393, value=[Ljava.lang.CharSequence;@680bddf5}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12484, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (f722c01e-c0ad-4db0-b28b-822849757df6)] -> xpath: //input[@id='email-login']]
+Session ID: f722c01e-c0ad-4db0-b28b-822849757df6]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=134.0.6998.89)
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <input id="email-login" class="input-text" name="username" type="email"> is not reachable by keyboard
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f565e9b8808bdf4d3585f255c58571be, sendKeysToElement {id=f.D665AF56EAFB3F1ABDE9EC1B12890D2E.d.F8893B5267B4315CD12350CE11304D26.e.232, value=[Ljava.lang.CharSequence;@d59970a}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f565e9b8808bdf4d3585f255c58571be)] -> xpath: //input[@id='email-login']]
-Session ID: f565e9b8808bdf4d3585f255c58571be
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f722c01e-c0ad-4db0-b28b-822849757df6, sendKeysToElement {id=9255b109-98ca-4fbf-9d8b-fbca7ba6b393, value=[Ljava.lang.CharSequence;@680bddf5}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12484, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (f722c01e-c0ad-4db0-b28b-822849757df6)] -> xpath: //input[@id='email-login']]
+Session ID: f722c01e-c0ad-4db0-b28b-822849757df6
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -357,7 +347,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
 at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
 at pages.BasePage.WriteOneElement(BasePage.java:27)
-at testcases.TestLoginPage.LoginWithEmptyMailAndPassword(TestLoginPage.java:102)
+at testcases.TestLoginPage.LoginWithEmptyMailAndPassword(TestLoginPage.java:98)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -394,29 +384,27 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithEmptyMailAndPassword -->
-        <test-method signature="LoginWithValidCredentials()[pri:5, instance:testcases.TestLoginPage@2f953efd]" started-at="2025-03-13T14:08:05 GMT+06:00" name="LoginWithValidCredentials" description="Test With Valid credentials" finished-at="2025-03-13T14:08:10 GMT+06:00" duration-ms="5249" status="FAIL">
+        <test-method signature="LoginWithValidCredentials()[pri:5, instance:testcases.TestLoginPage@57db2b13]" started-at="2025-03-13T14:55:43 GMT+06:00" name="LoginWithValidCredentials" description="Test With Valid credentials" finished-at="2025-03-13T14:55:43 GMT+06:00" duration-ms="124" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=134.0.6998.89)
+              <![CDATA[Element <input id="email-login" class="input-text" name="username" type="email"> is not reachable by keyboard
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f565e9b8808bdf4d3585f255c58571be, sendKeysToElement {id=f.D665AF56EAFB3F1ABDE9EC1B12890D2E.d.F8893B5267B4315CD12350CE11304D26.e.232, value=[Ljava.lang.CharSequence;@4beddc56}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f565e9b8808bdf4d3585f255c58571be)] -> xpath: //input[@id='email-login']]
-Session ID: f565e9b8808bdf4d3585f255c58571be]]>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f722c01e-c0ad-4db0-b28b-822849757df6, sendKeysToElement {id=9255b109-98ca-4fbf-9d8b-fbca7ba6b393, value=[Ljava.lang.CharSequence;@68ace111}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12484, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (f722c01e-c0ad-4db0-b28b-822849757df6)] -> xpath: //input[@id='email-login']]
+Session ID: f722c01e-c0ad-4db0-b28b-822849757df6]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=134.0.6998.89)
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <input id="email-login" class="input-text" name="username" type="email"> is not reachable by keyboard
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f565e9b8808bdf4d3585f255c58571be, sendKeysToElement {id=f.D665AF56EAFB3F1ABDE9EC1B12890D2E.d.F8893B5267B4315CD12350CE11304D26.e.232, value=[Ljava.lang.CharSequence;@4beddc56}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (f565e9b8808bdf4d3585f255c58571be)] -> xpath: //input[@id='email-login']]
-Session ID: f565e9b8808bdf4d3585f255c58571be
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f722c01e-c0ad-4db0-b28b-822849757df6, sendKeysToElement {id=9255b109-98ca-4fbf-9d8b-fbca7ba6b393, value=[Ljava.lang.CharSequence;@68ace111}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12484, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (f722c01e-c0ad-4db0-b28b-822849757df6)] -> xpath: //input[@id='email-login']]
+Session ID: f722c01e-c0ad-4db0-b28b-822849757df6
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -430,7 +418,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
 at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
 at pages.BasePage.WriteOneElement(BasePage.java:27)
-at testcases.TestLoginPage.LoginWithValidCredentials(TestLoginPage.java:40)
+at testcases.TestLoginPage.LoginWithValidCredentials(TestLoginPage.java:36)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -467,29 +455,27 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithValidCredentials -->
-        <test-method is-config="true" signature="logoutUser()[pri:0, instance:testcases.TestLoginPage@2f953efd]" started-at="2025-03-13T14:08:11 GMT+06:00" name="logoutUser" finished-at="2025-03-13T14:08:16 GMT+06:00" duration-ms="5073" status="FAIL">
+        <test-method is-config="true" signature="logoutUser()[pri:0, instance:testcases.TestLoginPage@57db2b13]" started-at="2025-03-13T14:55:43 GMT+06:00" name="logoutUser" finished-at="2025-03-13T14:55:53 GMT+06:00" duration-ms="10047" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='name']"}
-  (Session info: chrome=134.0.6998.89)
+              <![CDATA[Unable to locate element: //div[@class='name']
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f565e9b8808bdf4d3585f255c58571be, findElement {using=xpath, value=//div[@class='name']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f565e9b8808bdf4d3585f255c58571be]]>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f722c01e-c0ad-4db0-b28b-822849757df6, findElement {using=xpath, value=//div[@class='name']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12484, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: f722c01e-c0ad-4db0-b28b-822849757df6]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='name']"}
-  (Session info: chrome=134.0.6998.89)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='name']
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f565e9b8808bdf4d3585f255c58571be, findElement {using=xpath, value=//div[@class='name']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51011/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f565e9b8808bdf4d3585f255c58571be
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f722c01e-c0ad-4db0-b28b-822849757df6, findElement {using=xpath, value=//div[@class='name']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12484, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: f722c01e-c0ad-4db0-b28b-822849757df6
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -505,14 +491,22 @@ at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:5
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 at pages.BasePage.getElement(BasePage.java:9)
-at testcases.TestLoginPage.logoutUser(TestLoginPage.java:31)
+at testcases.TestLoginPage.logoutUser(TestLoginPage.java:28)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:386)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
 at org.testng.SuiteRunner.run(SuiteRunner.java:312)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
