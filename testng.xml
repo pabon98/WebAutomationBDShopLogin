@@ -6,20 +6,19 @@
         <classes>
             <class name="testcases.TestHomePage">
                 <methods>
-                    <exclude name="TestHomePageTitle"/>
-                    <exclude name="TestHomePageUrl"/>
+                    <include name="TestHomePageTitle"/>
+                    <include name="TestHomePageUrl"/>
                 </methods>
             </class>
             <class name="testcases.TestLoginPage">
                 <methods>
-                    <exclude name="setup_class"/>
-                    <include name="LoginWithValidCredentials"/>
                     <include name="LoginWithInvalidEmailAndValidPassword"/>
-                    <exclude name="LoginWithInvalidCredentials"/>
+                    <include name="LoginWithInvalidCredentials"/>
                     <include name="LoginWithValidEmailAndInValidPassword"/>
                     <include name="LoginWithInvalidEmailAndPassword"/>
                     <include name="LoginWithEmptyMailAndPassword"/>
-                    <exclude name="logoutUser"/>
+                    <include name="LoginWithValidCredentials"/>
+
                 </methods>
             </class>
         </classes>

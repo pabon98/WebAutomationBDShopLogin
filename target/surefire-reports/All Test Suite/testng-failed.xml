@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="F:/QA Project/Web Automation/BDShopWebAutomation/src/test/java/testcases(failed)" verbose="0">
+    <classes>
+      <class name="testcases.TestHomePage">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testcases.TestHomePage -->
+      <class name="testcases.TestLoginPage">
+        <methods>
+          <include name="openABrowser"/>
+          <include name="LoginWithEmptyMailAndPassword"/>
+          <include name="setup_class"/>
+          <include name="closeBrowser"/>
+          <include name="LoginWithValidCredentials"/>
+          <include name="LoginWithValidEmailAndInValidPassword"/>
+          <include name="LoginWithInvalidEmailAndPassword"/>
+          <include name="logoutUser"/>
+          <include name="LoginWithInvalidCredentials"/>
+          <include name="LoginWithInvalidEmailAndValidPassword"/>
+        </methods>
+      </class> <!-- testcases.TestLoginPage -->
+    </classes>
+  </test> <!-- F:/QA Project/Web Automation/BDShopWebAutomation/src/test/java/testcases(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

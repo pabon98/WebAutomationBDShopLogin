@@ -5,9 +5,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import pages.HomePage;
 import pages.LoginPage;
 import utilities.Datasets;
@@ -19,13 +17,13 @@ public class TestLoginPage extends DriverSetup {
    HomePage homePage = new HomePage();
    LoginPage loginPage = new LoginPage();
    
- @BeforeSuite
- public void setup_class(){
+ @BeforeClass
+ public void setup_class() {
  homePage.NavigateToLoginPage();
 }
 
- @AfterSuite
- public void logoutUser() throws InterruptedException {
+ @AfterClass
+ public void logoutUser() {
     Actions actions = new Actions(getDriver());
     actions.moveToElement(homePage.getElement(homePage.user_name)).build().perform();
     homePage.clickOneElement(loginPage.Logout_btn);
@@ -35,7 +33,6 @@ public class TestLoginPage extends DriverSetup {
     @Test(priority = 5, description = "Test With Valid credentials")
     @Description("User is trying to login with valid credentials")
     public void LoginWithValidCredentials() {
-
         loginPage.WriteOneElement(loginPage.email_field, loginPage.user_email);
         loginPage.WriteOneElement(loginPage.password_field, loginPage.user_password);
         loginPage.clickOneElement(loginPage.Login_btn);

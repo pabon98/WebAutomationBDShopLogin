@@ -9,7 +9,7 @@ import java.time.Duration;
 
 public class TestHomePage extends DriverSetup {
    HomePage homePage = new HomePage();
-    @Test
+    @Test(priority = 1)
     public void TestHomePageTitle(){
         homePage.LoadAnWebPage(homePage.homepage_url);
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
@@ -18,7 +18,7 @@ public class TestHomePage extends DriverSetup {
         Assert.assertEquals(homePage.getPageTitle(), homePage.homepage_title);
 
     }
-    @Test
+    @Test(priority = 0)
     public void TestHomePageUrl(){
         homePage.LoadAnWebPage(homePage.homepage_url);
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
